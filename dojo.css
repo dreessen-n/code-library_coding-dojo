@@ -25,9 +25,9 @@
   display: flex;
   width: 100px;
   height: 25px;
-  color: royalblue;
+  color: darkblue;
   font-weight: bold;
-  border: 2px solid royalblue;
+  border: 2px solid darkblue;
   border-radius: 25px;
   display: block;
 }
@@ -36,11 +36,11 @@
   display: flex;
   width: 30px;
   height: 30px;
-  background-color: royalblue;
+  background-color: darkblue;
   color: white;
   font-size: larger;
   border-radius: 50%;
-  border-color: royalblue;
+  border-color: darkblue;
   margin-top: 15px;
   display: block;
   border-style: none;
@@ -55,8 +55,8 @@
   color: white;
   height: 30px;
   width: 150px;
-  border: 2px solid black;
-  box-shadow: 3px 3px black;
+  border: 2px solid darkblue;
+  box-shadow: 3px 3px darkblue;
 }
 
 /* FLEXBOX */
@@ -96,14 +96,14 @@
 /* NAVIGATION-BAR */
 
 .nav-container {
-    background-color: black;
+    background-color: navajowhite;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-title {
-    color: white;
+    color: darkble;
     padding: 10px;
     margin-left: 10px;
 }
