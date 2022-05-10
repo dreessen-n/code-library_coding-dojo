@@ -13,3 +13,64 @@
     margin: 0 auto;
 }
 
+/* BUTTONS */
+
+.btnSearch {
+  width: 120px;
+  height: 25px;
+  color: lightseagreen;
+  border: 2px solid lightseagreen;
+  border-radius: 25px;
+  display: block;
+}
+
+.btnAdd {
+  width: 30px;
+  height: 30px;
+  background-color: lightseagreen;
+  color: white;
+  font-size: larger;
+  border-radius: 50%;
+  border-color: lightseagreen;
+  margin-top: 15px;
+  display: block;
+  border-style: none;
+}
+
+.btnCreateAcct {
+  margin-top: 20px;
+  background-color: royalblue;
+  color: white;
+  height: 30px;
+  width: 150px;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+}
+
+/* TABLE */
+
+.row {
+  display: flex;
+}
+
+.col, .col-2, .col-3 {
+  background-color: seagreen;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+}
+
+.col {
+  display: flex;
+  flex: 1;
+}
+
+.col-2 {
+  display: flex;
+  flex: 2;
+}
+
+.col-3 {
+  display: flex;
+  flex: 3;
+}
