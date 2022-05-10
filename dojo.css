@@ -100,13 +100,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 .nav-title {
     display: flex;
     flex: .15 0 auto;
     color: royalblue;
-    padding: 10px;
     justify-content: left;
 }
 
@@ -133,9 +133,8 @@ a.nav-links {
 .btn_nav-container {
   display: flex;
   flex: .15 0 auto;
-  justify-content: center;
+  justify-content: flex-end; 
 }
-
 
 .btn_nav-signOut {
     display: flex;
