@@ -8,7 +8,7 @@
 }
   /* Fixed width container class that will "auto-center" itself */
 
-.container {
+.wrapper {
     width: 1200px;
     margin: 0 auto;
 }
@@ -103,33 +103,45 @@
 }
 
 .nav-title {
-    color: darkble;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.nav-links {
     display: flex;
-    align-items: center;
-    justify-items: end;
-    justify-content: space-evenly;
+    flex: .15 0 auto;
+    color: royalblue;
+    padding: 10px;
+    justify-content: left;
 }
 
-a.nav-links {
-    color: white;
-    text-decoration: none;
+ul.nav-links {
+  display: flex;
+  flex: .7 0 auto;
+  align-items: center;
 }
 
 li.nav-links {
-    padding: 4px 10px;
-    margin: 4px;
+  display: flex;
+  margin-left: 20px;
+  text-decoration: none;
+  justify-content: flex-start;
 }
+
+a.nav-links {
+  display: flex;
+  color: royalblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn_nav-container {
+  display: flex;
+  flex: .15 0 auto;
+  justify-content: center;
+}
+
 
 .btn_nav-signOut {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: teal;
+    background-color: royalblue;
     color: white;
     border: 2px solid black;
     border-radius: 5px;
