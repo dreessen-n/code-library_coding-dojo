@@ -23,10 +23,11 @@
 
 .btnSearch {
   display: flex;
-  width: 120px;
+  width: 100px;
   height: 25px;
-  color: lightseagreen;
-  border: 2px solid lightseagreen;
+  color: royalblue;
+  font-weight: bold;
+  border: 2px solid royalblue;
   border-radius: 25px;
   display: block;
 }
@@ -35,11 +36,11 @@
   display: flex;
   width: 30px;
   height: 30px;
-  background-color: lightseagreen;
+  background-color: royalblue;
   color: white;
   font-size: larger;
   border-radius: 50%;
-  border-color: lightseagreen;
+  border-color: royalblue;
   margin-top: 15px;
   display: block;
   border-style: none;
@@ -47,6 +48,8 @@
 
 .btnCreateAcct {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
   background-color: royalblue;
   color: white;
