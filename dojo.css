@@ -99,6 +99,7 @@ Changed name to wrapper from .btn_containe
 .nav-container {
 	background-color: navajowhite;
 	display: flex;
+	flex: 1 0 auto;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
